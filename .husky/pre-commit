@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+ 
+#https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+yarn lint-staged
